@@ -1,11 +1,8 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import { Title } from '@mantine/core';
 
-export default function HomePage() {
-  return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
-  );
+
+export default function Index() {
+  return(
+    <Title ta="center" >Replace me at app/page.tsx and build your Idea</Title>
+  )
 }
